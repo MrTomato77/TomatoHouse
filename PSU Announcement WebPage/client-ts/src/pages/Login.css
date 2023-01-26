@@ -1,0 +1,115 @@
+.box-container {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  margin: auto;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.login-container {
+  background-image: url('../Image/LoginBG.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  text-align: center;
+  flex: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.login-button:hover {
+  background-color: #2980b9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-button {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.login-button {
+  background-color: white;
+  color: #2980b9;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 20%;
+  height: 100%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 40%;
+  height: 40%;
+}
+
+.center-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-content-wrapper {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.text-content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loading-spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
